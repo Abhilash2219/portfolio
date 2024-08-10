@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header-container">
+            <div class="header-title">
+                <h1>Abhilash Subhash Badiger</h1>
+            </div>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="https://www.linkedin.com/in/abhilashbadiger/" target="_blank">
+                    <img src="images/linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/Abhilash2219" target="_blank">
+                    <img src="images/GitHub.png" alt="GitHub">
+                </a>
+                <a href="mailto:abhilashbadiger0000@gmail.com">
+                    <img src="images/mail.jpeg" alt="Email">
+                </a>
+            </div>
+        
+        <button id="theme-toggle" class="theme-toggle">Dark Mode</button>
+    </div>
+    </header>
+    
+
+    <section id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="images\mine.jpeg" alt="Abhi">
+            </div>
+            <div class="about-text">
+                <p>
+                    Hello! I’m Abhilash,a passionate Full-Stack Developer with a focus on creating dynamic, user-friendly web applications. I hold a Bachelor's degree in Computer Science from EPCET College, where I graduated with honors. My areas of expertise include front-end technologies like HTML,CSS and JavaScript, as well as back-end development with Java and Python.
+                </p>
+            </div>
+            
+        </div>
+    </section>
+    
+        
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <div class="skill-name">
+                    <span>HTML & CSS</span>
+                </div>
+                <div class="skill-bar-container">
+                    <div class="skill-level" style="width: 90%;"></div>
+                </div>
+                <div class="skill-percentage">
+                    <span>90%</span>
+                </div>
+            </div>
+    
+            <div class="skill">
+                <div class="skill-name">
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-bar-container">
+                    <div class="skill-level" style="width: 85%;"></div>
+                </div>
+                <div class="skill-percentage">
+                    <span>85%</span>
+                </div>
+            </div>
+    
+            <div class="skill">
+                <div class="skill-name">
+                    <span>Java</span>
+                </div>
+                <div class="skill-bar-container">
+                    <div class="skill-level" style="width: 80%;"></div>
+                </div>
+                <div class="skill-percentage">
+                    <span>80%</span>
+                </div>
+            </div>
+    
+            <div class="skill">
+                <div class="skill-name">
+                    <span>Python</span>
+                </div>
+                <div class="skill-bar-container">
+                    <div class="skill-level" style="width: 80%;"></div>
+                </div>
+                <div class="skill-percentage">
+                    <span>80%</span>
+                </div>
+            </div>
+            
+            <div class="skill">
+                <div class="skill-name">
+                    <span>SQL</span>
+                </div>
+                <div class="skill-bar-container">
+                    <div class="skill-level" style="width: 85%;"></div>
+                </div>
+                <div class="skill-percentage">
+                    <span>85%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>The Event Management System is a comprehensive solution designed to streamline the planning and execution of events. This project integrates various functionalities to manage event logistics, including venue selection, scheduling, attendee management, and real-time updates.</p>
+                <a href="https://github.com/Abhilash2219/Event-management" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>The Reminder Application is a user-friendly tool designed to help users efficiently manage their tasks and deadlines. This app offers a simple yet powerful interface for setting reminders, organizing tasks, and staying on top of important commitments.</p>
+                <a href="https://github.com/Abhilash2219/Reminder-Application" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <p>The Netflix Clone is a fully responsive web application designed to mimic the core functionalities of the popular streaming platform, Netflix. This project showcases the ability to create a feature-rich media streaming service, complete with user authentication, content browsing, and video playback capabilities. </p>
+                <a href="https://github.com/Abhilash2219/Netflix-clone" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project">
+                <h3>Project 4</h3>
+                <p>The Calculator Application is a simple yet efficient tool designed to perform basic arithmetic operations with a clean and intuitive user interface. This project demonstrates the ability to develop a functional and responsive calculator that can be used across various devices.</p>
+                <a href="https://github.com/Abhilash2219/calculator" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+    <section id="resume">
+        <div class="resume-container">
+            <h2>Download My Resume</h2>
+            <a href="assets\Abhilash.pdf" download class="resume-download-btn">
+                <i class="fas fa-download"></i> Download Resume
+            </a>
+        </div>
+    </section>
+    
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, please fill out the form below:</p>
+        <form action="contact.php" method="post" id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Abhilash. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
